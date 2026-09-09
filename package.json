@@ -1,29 +1,31 @@
 {
   "name": "trabajo-practico-1",
   "version": "1.0.0",
-  "description": "*Alumno:* Alvarenga Sofia",
+  "description": "Proyecto base para API con Express y Sequelize",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch app.js "
+    "dev": "node --watch app.js",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sofi614/trabajo-practico-integrador-1.git"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "sequelize",
+    "mysql",
+    "jwt",
+    "api"
+  ],
+  "author": "Alvarenga Sofia",
   "license": "ISC",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/sofi614/trabajo-practico-integrador-1/issues"
-  },
-  "homepage": "https://github.com/sofi614/trabajo-practico-integrador-1#readme",
   "dependencies": {
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
     "express-validator": "^7.3.2",
-    "mysql2": "^3.24.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.1.1",
     "sequelize": "^6.37.8"
   }
 }
